@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="FoodDush/css/menu.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>Меню</title>
 </head>
 <body>
     <header>
         <div class="header-block">
             <div class="logo-header">
-                <img src="FoodDush/resources/logo.svg" alt="Логотип FoodDash">
+                <img src="../resources/logo.svg" alt="Логотип FoodDash">
             </div>
             <nav>
                 <ul class="links-header">
@@ -31,7 +31,7 @@
                     </svg>
                 </a>
                 <a href="authorization.php" aria-label="User Profile" style="width: 50px; height: 50px;">
-                    <img src="FoodDush/resources/user.svg" alt="Фото пользователя">
+                    <img src="../resources/user.svg" alt="Фото пользователя">
                 </a>
             </div>
         </div>
@@ -44,10 +44,10 @@
             </div>
             <div class="container-dish">
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\1.svg" alt="first"> <br>
+                    <img src="..\resources\menu_dish\1.svg" alt="first"> <br>
                     <p>Indian Vegetable<br>
                         Pulao</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -57,10 +57,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\2.svg" alt="second"> <br>
+                    <img src="..\resources\menu_dish\2.svg" alt="second"> <br>
                     <p>Indian Vegetable<br>
                         Pulao</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -70,10 +70,10 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\3.svg" alt="third"> <br>
+                    <img src="..\resources\menu_dish\3.svg" alt="third"> <br>
                     <p>Indian Vegetable<br>
                         Pulao</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -88,9 +88,9 @@
             </div>
             <div class="container-dish">
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\10.svg" alt="tea-time-snacks"> <br>
+                    <img src="..\resources\menu_dish\10.svg" alt="tea-time-snacks"> <br>
                     <p>Tea Time Snacks</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -100,9 +100,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\11.svg" alt="Salted-Fenugreek"> <br>
+                    <img src="..\resources\menu_dish\11.svg" alt="Salted-Fenugreek"> <br>
                     <p>Salted Fenugreek</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -112,9 +112,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\12.svg" alt="Murukku"> <br>
+                    <img src="..\resources\menu_dish\12.svg" alt="Murukku"> <br>
                     <p>Murukku</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -129,9 +129,9 @@
             </div>
             <div class="container-dish">
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\4.svg" alt="fourth"> <br>
+                    <img src="..\resources\menu_dish\4.svg" alt="fourth"> <br>
                     <p>Masala Dosa</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -141,9 +141,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\5.svg" alt="second"> <br>
+                    <img src="..\resources\menu_dish\5.svg" alt="second"> <br>
                     <p>Pav Bhaji</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -153,9 +153,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\6.svg" alt="third"> <br>
+                    <img src="..\resources\menu_dish\6.svg" alt="third"> <br>
                     <p>Dal Bati Churma</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -167,9 +167,9 @@
             </div>
             <div class="container-dish">
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\7.svg" alt="seventh"> <br>
+                    <img src="..\resources\menu_dish\7.svg" alt="seventh"> <br>
                     <p>Puri Sabji</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -179,9 +179,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\8.svg" alt="eight"> <br>
+                    <img src="..\resources\menu_dish\8.svg" alt="eight"> <br>
                     <p>Naan Bread</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -191,9 +191,9 @@
                     <button>ADD TO CART</button>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\menu_dish\9.svg" alt="nineth"> <br>
+                    <img src="..\resources\menu_dish\9.svg" alt="nineth"> <br>
                     <p>Aloo Mutter</p>
-                    <div class="stars-container"><img class="stars" src="FoodDush\resources\fb-star.svg" alt="stars">(50)</div> <br>
+                    <div class="stars-container"><img class="stars" src="..\resources\fb-star.svg" alt="stars">(50)</div> <br>
                     <p style="font-size: 36px;">₹200</p><br>
                     <div class="dish-count">
                         <button>-</button>
@@ -220,11 +220,11 @@
                 </div>
                 <div class="footer-social">
                     <div class="social-links">
-                        <a href="#" aria-label="Instagram"><img src="FoodDush/resources/inst.svg" alt="" width="24" height="24"></a>
-                        <a href="#" aria-label="LinkedIn"><img src="FoodDush/resources/in.svg" alt="" width="24" height="24"></a>
-                        <a href="#" aria-label="Facebook"><img src="FoodDush/resources/f.svg" alt="" width="24" height="24"></a>
-                        <a href="#" aria-label="Twitter"><img src="FoodDush/resources/twitter.svg" alt="" width="24" height="24"></a>
-                        <a href="#" aria-label="Dribbble"><img src="FoodDush/resources/ball.svg" alt="" width="24" height="24"></a>
+                        <a href="#" aria-label="Instagram"><img src="../resources/inst.svg" alt="" width="24" height="24"></a>
+                        <a href="#" aria-label="LinkedIn"><img src="../resources/in.svg" alt="" width="24" height="24"></a>
+                        <a href="#" aria-label="Facebook"><img src="../resources/f.svg" alt="" width="24" height="24"></a>
+                        <a href="#" aria-label="Twitter"><img src="../resources/twitter.svg" alt="" width="24" height="24"></a>
+                        <a href="#" aria-label="Dribbble"><img src="../resources/ball.svg" alt="" width="24" height="24"></a>
                     </div>
                     <p class="author">By - Piyush Prajapat</p>
                 </div>

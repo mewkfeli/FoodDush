@@ -11,11 +11,11 @@
 <body>
     <div class="shopping-container">
         <div class="shopping-items">
-            <h1 class="section-title"><img src="FoodDush\resources\arrow.svg" alt="arrow"> Shopping Continue</h1>
+            <h1 class="section-title"><img src="..\resources\arrow.svg" alt="arrow"> Shopping Continue</h1>
             <div class="shopping-list">
                 <h2 class="section-title" style="margin-top: 25px; margin-bottom: 40px;">Shopping Item</h2>
                 <div class="cart-item">
-                    <div class="item-image"><img src="FoodDush\resources\vermicelli.svg" alt="vermicelli"></div>
+                    <div class="item-image"><img src="..\resources\vermicelli.svg" alt="vermicelli"></div>
                     <div class="item-details">
                         <div class="item-name">Vermicelli Upma</div>
                         <div class="item-quantity">
@@ -25,11 +25,11 @@
                         </div>
                     </div>
                     <div class="item-price">₹200</div>
-                    <button class="remove-btn"><img src="FoodDush\resources\delete_logo.svg" alt="delete"></button>
+                    <button class="remove-btn"><img src="..\resources\delete_logo.svg" alt="delete"></button>
                 </div>
                 
                 <div class="cart-item">
-                    <div class="item-image"><img src="FoodDush\resources\vermicelli.svg" alt="vermicelli"></div>
+                    <div class="item-image"><img src="..\resources\vermicelli.svg" alt="vermicelli"></div>
                     <div class="item-details">
                         <div class="item-name">Vermicelli Upma</div>
                         <div class="item-quantity">
@@ -39,11 +39,11 @@
                         </div>
                     </div>
                     <div class="item-price">₹200</div>
-                    <button class="remove-btn"><img src="FoodDush\resources\delete_logo.svg" alt="delete"></button>
+                    <button class="remove-btn"><img src="..\resources\delete_logo.svg" alt="delete"></button>
                 </div>
                 
                 <div class="cart-item">
-                    <div class="item-image"><img src="FoodDush\resources\vermicelli.svg" alt="vermicelli"></div>
+                    <div class="item-image"><img src="..\resources\vermicelli.svg" alt="vermicelli"></div>
                     <div class="item-details">
                         <div class="item-name">Vermicelli Upma</div>
                         <div class="item-quantity">
@@ -53,11 +53,11 @@
                         </div>
                     </div>
                     <div class="item-price">₹200</div>
-                    <button class="remove-btn"><img src="FoodDush\resources\delete_logo.svg" alt="delete"></button>
+                    <button class="remove-btn"><img src="..\resources\delete_logo.svg" alt="delete"></button>
                 </div>
                 
                 <div class="cart-item">
-                    <div class="item-image"><img src="FoodDush\resources\vermicelli.svg" alt="vermicelli"></div>
+                    <div class="item-image"><img src="..\resources\vermicelli.svg" alt="vermicelli"></div>
                     <div class="item-details">
                         <div class="item-name">Vermicelli Upma</div>
                         <div class="item-quantity">
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="item-price">₹200</div>
-                    <button class="remove-btn"><img src="FoodDush\resources\delete_logo.svg" alt="delete"></button>
+                    <button class="remove-btn"><img src="..\resources\delete_logo.svg" alt="delete"></button>
                 </div>
             </div>
         </div>

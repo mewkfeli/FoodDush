@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="FoodDush/css/auth.css">
+    <link rel="stylesheet" href="../css/auth.css">
     <title>Авторизация</title>
 </head>
 <body>
     <main class="auth-container">
         <section class="header-container">
-            <img src="FoodDush\resources\background_auth.png" alt="Картинка слева">
+            <img src="..\resources\background_auth.png" alt="Картинка слева">
         </section>
         <section class="right-container">
             <div class="logo-header">
-                <a href="index.php"><img src="FoodDush/resources/logo.svg" alt="Логотип FoodDash"></a>
+                <a href="index.php"><img src="../resources/logo.svg" alt="Логотип FoodDash"></a>
             </div>
             <div class="text">
                 <h1>Login to your account!</h1>
             </div>
             <div class="button-auth">
-                <button><img src="FoodDush\resources\google.svg" alt="google logo"> Login with Google</button>
-                <button><img src="FoodDush\resources\facebook.svg" alt="facebook logo"> Login with Facebook</button>
+                <button><img src="..\resources\google.svg" alt="google logo"> Login with Google</button>
+                <button><img src="..\resources\facebook.svg" alt="facebook logo"> Login with Facebook</button>
             </div>
             <div class="or">
                 <p>OR</p>

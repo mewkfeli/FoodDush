@@ -27,7 +27,7 @@
         <header>
             <div class="header-block">
                 <div class="logo-header">
-                    <img src="FoodDush/resources/logo.svg" alt="Логотип FoodDash">
+                    <img src="../resources/logo.svg" alt="Логотип FoodDash">
                 </div>
                 <nav>
                     <ul class="links-header">
@@ -48,7 +48,7 @@
                         </svg>
                     </a>
                     <a href="authorization.php" aria-label="User Profile" style="width: 50px; height: 50px;">
-                        <img src="FoodDush/resources/user.svg" alt="Фото пользователя">
+                        <img src="../resources/user.svg" alt="Фото пользователя">
                     </a>
                 </div>
             </div>
@@ -112,7 +112,7 @@
             <!-- Welcome Section -->
             <div class="welcome-section">
                 <h2 class="welcome-message">You're welcome!</h2>
-                <img class="profile-image" src="FoodDush/resources/user.svg" alt="Фото пользователя">
+                <img class="profile-image" src="../resources/user.svg" alt="Фото пользователя">
             </div>
         </main>
     </div>

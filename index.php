@@ -1,8 +1,3 @@
-<?php
-    require_once "connect-db.php";
-    $query_product = mysqli_query($conn, "select * from `table_product`");
-    $product = mysqli_fetch_all($query_product); //двухмерный массив всех записей
-?>
 
 <!DOCTYPE html>
 <html lang="ru">
@@ -11,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FoodDash</title>
-    <link rel="stylesheet" href="FoodDush/css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     </head>
 
 <body>
@@ -39,7 +34,7 @@
                     </svg>
                 </a>
                 <a href="authorization.php" aria-label="User Profile" style="width: 50px; height: 50px;">
-                    <img src="FoodDush/resources/user.svg" alt="Фото пользователя">
+                    <img src="../resources/user.svg" alt="Фото пользователя">
                 </a>
             </div>
         </div>
@@ -55,22 +50,22 @@
                     <button>Track Order</button>
                 </div>
                 <div class="block-welcome-img">
-                    <img src="FoodDush/resources/dish.svg" alt="Изображение еды">
+                    <img src="../resources/dish.svg" alt="Изображение еды">
                 </div>
             </div>
         </section>
 
         <section class="block-advantages">
             <div class="block-advantages-container">
-                <img src="FoodDush\resources\fast-delivery 1.svg" alt="Первое преимущество иконка">
+                <img src="..\resources\fast-delivery 1.svg" alt="Первое преимущество иконка">
                 <h1><span>Fast Delivery</span><br> Promise To Deliver Within 30 Mins</h1>
             </div>
             <div class="block-advantages-container">
-                <img src="FoodDush\resources\fresh.svg" alt="Второе преимущество иконка">
+                <img src="..\resources\fresh.svg" alt="Второе преимущество иконка">
                 <h1><span>Fresh Food</span><br> Your Food Will Be Delivered 100% Fresh To Your Home. </h1>
             </div>
             <div class="block-advantages-container">
-                <img src="FoodDush\resources\box 1.svg" alt="Третье преимущество иконка">
+                <img src="..\resources\box 1.svg" alt="Третье преимущество иконка">
                 <h1><span>Free Delivery</span><br> Your Food Delivery Is Absolutely Free. No Cost Just Order</h1>
             </div>
         </section>
@@ -84,19 +79,19 @@
             </div>
             <div class="block-best-dish">
                 <div class="dish">
-                    <img src="FoodDush\resources\dish 1.svg" alt="Первое блюдо">
+                    <img src="..\resources\dish 1.svg" alt="Первое блюдо">
                     <h1>Indian Vegetable 
                         Pulao</h1>
                     <a href="#">Order Now ></a>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\dish 2.svg" alt="Второе блюдо">
+                    <img src="..\resources\dish 2.svg" alt="Второе блюдо">
                     <h1>Indian Vegetable 
                         Pulao</h1>
                     <a href="#">Order Now ></a>
                 </div>
                 <div class="dish">
-                    <img src="FoodDush\resources\dish 3.svg" alt="Третье блюдо">
+                    <img src="..\resources\dish 3.svg" alt="Третье блюдо">
                     <h1>Indian Vegetable 
                         Pulao</h1>
                     <a href="#">Order Now ></a>
@@ -104,19 +99,19 @@
             </div>
             <div class="block-best-stars">
                 <div class="block-best-stars-container">
-                    <img src="FoodDush\resources\star.svg" alt="Звезда">
+                    <img src="..\resources\star.svg" alt="Звезда">
                     <h1>Rajasthan</h1>
                 </div>
                 <div class="block-best-stars-container">
-                    <img src="FoodDush\resources\star.svg" alt="Звезда">
+                    <img src="..\resources\star.svg" alt="Звезда">
                     <h1>South Indian</h1>
                 </div>
                 <div class="block-best-stars-container">
-                    <img src="FoodDush\resources\star.svg" alt="Звезда">
+                    <img src="..\resources\star.svg" alt="Звезда">
                     <h1>Gujarat</h1>
                 </div>
                 <div class="block-best-stars-container">
-                    <img src="FoodDush\resources\star.svg" alt="Звезда">
+                    <img src="..\resources\star.svg" alt="Звезда">
                     <h1>Maharashtra</h1>
                 </div>
             </div>
@@ -132,12 +127,12 @@
 
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush/resources/regular-dish-first.svg" alt="Angoori Rasmalai">
+                    <img src="../resources/regular-dish-first.svg" alt="Angoori Rasmalai">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>Indian Dessert</span> <br>Angoori Rasmalai</h1>
                         </div>
-                        <span><img src="FoodDush/resources/fb-star.svg" alt="star"></span>
+                        <span><img src="../resources/fb-star.svg" alt="star"></span>
                         <div class="menu-cost">
                             <h3>₹250</h3>
                             <button class="btn-buy">Buy Now</button>
@@ -146,12 +141,12 @@
                 </div>
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush/resources/regular-dish-second.svg" alt="Indian Tea Time Snacks">
+                    <img src="../resources/regular-dish-second.svg" alt="Indian Tea Time Snacks">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>Indian</span> Tea Time <br>Snacks</h1>
                         </div>
-                        <img src="FoodDush/resources/fb-star.svg" alt="star">
+                        <img src="../resources/fb-star.svg" alt="star">
                         <div class="menu-cost">
                             <h3>₹250</h3>
                             <button class="btn-buy">Buy Now</button>
@@ -160,12 +155,12 @@
                 </div>
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush/resources/regular-dish-third.svg" alt="Indian Tea Time Snacks">
+                    <img src="../resources/regular-dish-third.svg" alt="Indian Tea Time Snacks">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>Indian</span> Tea <br>Time Snacks</h1>
                         </div>
-                        <img src="FoodDush/resources/fb-star.svg" alt="star">
+                        <img src="../resources/fb-star.svg" alt="star">
                         <div class="menu-cost">
                             <h3>₹200</h3>
                             <button class="btn-buy">Buy Now</button>
@@ -177,14 +172,14 @@
             <div class="menu-container">
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush\resources\regular-dish-fourh.svg" alt="Angoori Rasmalai">
+                    <img src="..\resources\regular-dish-fourh.svg" alt="Angoori Rasmalai">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>South Indian</span> <br>
                                 Masala Dosa</h1>
                         </div>
                         <div class="raiting-comment">
-                           <img src="FoodDush/resources/fb-star.svg" alt="star">
+                           <img src="../resources/fb-star.svg" alt="star">
                              <span>(50)</span>
                         </div>
                         <div class="menu-cost">
@@ -195,13 +190,13 @@
                 </div>
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush\resources\regular-dish-fifthd.svg" alt="Indian Tea Time Snacks">
+                    <img src="..\resources\regular-dish-fifthd.svg" alt="Indian Tea Time Snacks">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>Gujarati</span> <br>
                                 Pav Bhaji</h1>
                         </div>
-                        <img src="FoodDush/resources/fb-star.svg" alt="star">
+                        <img src="../resources/fb-star.svg" alt="star">
                         <div class="menu-cost">
                             <h3>₹250</h3>
                             <button class="btn-buy">Buy Now</button>
@@ -210,13 +205,13 @@
                 </div>
                 <div class="menu-dish">
                     <div class="background-menu"></div>
-                    <img src="FoodDush\resources\regular-dish-sixth.svg" alt="Indian Tea Time Snacks">
+                    <img src="..\resources\regular-dish-sixth.svg" alt="Indian Tea Time Snacks">
                     <div class="dish-info">
                         <div class="dish-name-and-fb">
                             <h1><span>Rajasthan</span> <br>
                                 Dal Bati Churma</h1>
                         </div>
-                        <img src="FoodDush/resources/fb-star.svg" alt="star">
+                        <img src="../resources/fb-star.svg" alt="star">
                         <div class="menu-cost">
                             <h3>₹450</h3>
                             <button class="btn-buy">Buy Now</button>
@@ -228,10 +223,10 @@
 
         <section class="block-marketing">
             <div class="market-container">
-                <img src="FoodDush\resources\market1.svg" alt="">
+                <img src="..\resources\market1.svg" alt="">
                 <div class="market-container-col">
-                    <img src="FoodDush\resources\market2.svg" alt="">
-                    <img src="FoodDush\resources\market3.svg" alt="">
+                    <img src="..\resources\market2.svg" alt="">
+                    <img src="..\resources\market3.svg" alt="">
                 </div>
             </div>
         </section>
@@ -251,11 +246,11 @@
                     <div class="block-footer-left-two">
                         <h1 style="color: var(--main-color);">Follow Us On</h1>
                         <div>
-                            <a href="#" aria-label="Instagram"><img src="FoodDush/resources/inst.svg" alt="Instagram"></a>
-                            <a href="#" aria-label="LinkedIn"><img src="FoodDush/resources/in.svg" alt="LinkedIn"></a>
-                            <a href="#" aria-label="Facebook"><img src="FoodDush/resources/f.svg" alt="Facebook"></a>
-                            <a href="#" aria-label="Twitter"><img src="FoodDush/resources/twitter.svg" alt="Twitter"></a>
-                            <a href="#" aria-label="Dribbble"><img src="FoodDush/resources/ball.svg" alt="Dribbble"></a>
+                            <a href="#" aria-label="Instagram"><img src="../resources/inst.svg" alt="Instagram"></a>
+                            <a href="#" aria-label="LinkedIn"><img src="../resources/in.svg" alt="LinkedIn"></a>
+                            <a href="#" aria-label="Facebook"><img src="../resources/f.svg" alt="Facebook"></a>
+                            <a href="#" aria-label="Twitter"><img src="../resources/twitter.svg" alt="Twitter"></a>
+                            <a href="#" aria-label="Dribbble"><img src="../resources/ball.svg" alt="Dribbble"></a>
                         </div>
                     </div>
                 </div>
